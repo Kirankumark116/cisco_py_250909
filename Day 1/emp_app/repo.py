@@ -26,7 +26,7 @@ def delete_employee(id):
     I=0
     for employee in employees:
         if employee[0]==id:
-            index=1
+            index=I
             break
         I+=1
     if index!=-1:
