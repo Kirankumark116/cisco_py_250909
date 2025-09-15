@@ -1,4 +1,4 @@
-import flight_repo as repo
+import db_repo as repo
 
 def menu():
     message = '''
